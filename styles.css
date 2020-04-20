@@ -12,8 +12,16 @@
   .logo {
     width:160%;
     height:auto;
-    /* margin-left:-0%; */
     margin-right:auto;
     overflow:hidden;
   }
+}
+
+.main {
+  z-index:5;
+  position:absolute;
+  background-color: black;
+  height:2000px;
+  top:90%;
+  width:100%;
 }
