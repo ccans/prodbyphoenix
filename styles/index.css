@@ -101,6 +101,7 @@
 
 .header {
   backdrop-filter: blur(8px);
+  background-color: var(--txt-col);
 }
 
 .imp-btn {
