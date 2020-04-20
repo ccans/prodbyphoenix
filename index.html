@@ -1,9 +1,52 @@
-<!<!DOCTYPE html>
+<!DOCTYPE html>
 <html>
+
 <head>
-  <link href="styles.css"rel="stylesheet"/>
+  <meta name="viewport" content="width=device-width">
+  <!-- IMPORTS AND DEPENDENCIES -->
+
+  <!-- Page Render Initialization (includes styling and authentication) (IMPORTANT Imports) -->
+  <link rel="stylesheet" type="text/css" href="styles.css">
+  <link rel="stylesheet" type="text/css" href="styles/index.css">
+  <link rel="stylesheet" type="text/css" href="styles/default.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+  <!-- PAGE INFO -->
+
+  <title>ProdByPhoenix | Beats</title>
+
 </head>
+
 <body>
-  <img class="logo" src="https://cdn.discordapp.com/attachments/701884752554360853/701896028865167470/image0.jpg" />
+  <!-- NAVBAR/HEADER -->
+  <div class="header">
+    <a class="mobile-navbar-l" onClick="dropDown()"><i class="fa fa-bars"></i></a>
+    <a onClick="changeTheme()" class="header-theme-toggle-button toggle-theme-asset"></a>
+    <a href="#about">Beats</a>
+    <a> Pricing </a>
+    <a> <img class="icon" src="https://img.icons8.com/cotton/64/000000/search--v2.png" /> </a>
+    <a> <img class="icon settings" src="https://img.icons8.com/flat_round/64/000000/settings--v1.png" /> </a>
+    <a class="mobile-navbar-r" href="launch.html"><img class="icon"
+        src="https://img.icons8.com/cotton/64/000000/login-rounded-right--v2.png" /></a>
+  </div>
+
+  <div class="dropdown-navbar">
+    <a class="dropdown-content header-theme-toggle-button toggle-theme-asset" onClick="changeTheme()"
+      class="header-theme-toggle-button toggle-theme-asset"></a>
+    <a class="dropdown-content auto-theme-btn" id="auto-theme-btn" onclick="editAutoTheme()">Toggle Auto Theme</a>
+    <br />
+    <a class="dropdown-content" href="#about">Beats</a>
+    <br />
+    <a class="dropdown-content"> Pricing</a>
+    <br />
+    <a class="dropdown-content"> Contact </a>
+  </div>
+
+  <div class="virus-img-cntnr">
+    <div class="virus-img"> <img class="logo img-top" src="https://i.ibb.co/dDdm6Vb/image0-upscaled-illustration-x4.png" /></div>
+  </div>
+
 </body>
+
 </html>
