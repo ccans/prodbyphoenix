@@ -25,3 +25,15 @@ function dropDown() {
 
     }
 }
+
+window.onload = function() {
+    var height = $('.img-top').height();
+      $(".main").css("top", height);
+};
+
+
+
+window.onresize = function(){
+  var height = $('.img-top').height();
+    $(".main").css("top", height);
+};

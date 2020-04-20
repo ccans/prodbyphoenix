@@ -19,10 +19,10 @@
     top:0% !important;
     left:-33.8% !important;
   }
-
+/*
   .main {
     top:45% !important;
-  }
+  } */
 }
 
 .main {
@@ -30,7 +30,7 @@
   position:absolute;
   background-color: black;
   height:2000px;
-  top:100%;
+  /* top:100%; */
   width:100%;
 }
 
