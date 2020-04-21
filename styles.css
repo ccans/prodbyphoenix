@@ -44,7 +44,7 @@
 .main {
   z-index:5;
   position:absolute;
-  background-color: white;
+  background-color: black;
   height:2000px;
   /* top:100%; */
   width:100%;
