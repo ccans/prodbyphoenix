@@ -27,16 +27,16 @@
   <div class="header">
     <a class="mobile-navbar-l" onClick="dropDown()"><i class="fa fa-bars"></i></a>
     <a href="index.html" class="logo"><img class="bogo bogo2" src="https://media.discordapp.net/attachments/701884752554360853/701922006379266058/image0.png" /></a>
-    <a href="#about">Beats</a>
-    <a> Pricing </a>
-    <a class="mobile-navbar-r" href="launch.html"><img class="icon"
-        src="https://img.icons8.com/cotton/64/000000/login-rounded-right--v2.png" /></a>
+    <a href="#about" onClick="document.getElementById('Beats').scrollIntoView();">Beats</a>
+    <a onClick="document.getElementById('Pricing').scrollIntoView();"> Pricing </a>
+    <a onClick="document.getElementById('Contact').scrollIntoView();"> Contact </a>
+    <a class="mobile-navbar-r" href="launch.html"><img class="icon">
   </div>
 
   <div class="dropdown-navbar">
-    <a class="dropdown-content" href="#about">Beats</a>
+    <a class="dropdown-content" onClick="document.getElementById('Beats').scrollIntoView();">Beats</a>
     <br />
-    <a class="dropdown-content"> Pricing</a>
+    <a class="dropdown-content" onClick="document.getElementById('Pricing').scrollIntoView();"> Pricing</a>
     <br />
     <a class="dropdown-content"> Contact </a>
   </div>
@@ -46,7 +46,7 @@
   </div>
 
   <div class="main">
-    <h2 class="title"> Beats </h2>
+    <h2 class="title" id="Beats"> Beats </h2>
 
     <script src="https://apps.elfsight.com/p/platform.js" defer></script>
     <div class="elfsight-app-c12fc03e-4ad2-46b4-b200-13f2072cb0d1"></div>
@@ -63,13 +63,13 @@
     <div class="space2"> </div>
     <hr />
     <div class="space2"> </div>
-    <h2 class="title"> Pricing </h2>
+    <h2 class="title" id="Pricing"> Pricing </h2>
     <script src="https://apps.elfsight.com/p/platform.js" defer></script>
     <div class="elfsight-app-7690ab37-aea3-4219-9e5a-7673544174c3"></div>
     <div class="space2"> </div>
     <hr />
     <div class="space2"> </div>
-    <h2 class="title"> Contact </h2>
+    <h2 class="title" id="Contact"> Contact </h2>
   </div>
 
 </body>
