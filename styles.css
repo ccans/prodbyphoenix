@@ -41,3 +41,17 @@
 .space {
   height:100px;
 }
+
+.yt-box {
+  height:300px;
+  display:flex;
+}
+
+.y1, .y2, .y3 {
+    flex-grow:1;
+}
+
+.frame{
+  height:100%;
+  width:100%;
+}
