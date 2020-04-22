@@ -26,11 +26,12 @@
   <!-- NAVBAR/HEADER -->
   <div class="header">
     <a class="mobile-navbar-l" onClick="dropDown()"><i class="fa fa-bars"></i></a>
+    <a href="#about" class="green mobile-navbar-r"onClick="document.getElementById('Beats').scrollIntoView();">#onlyfire</a>
     <a href="index.html" class="logo"><img class="bogo bogo2" src="https://media.discordapp.net/attachments/701884752554360853/701922006379266058/image0.png" /></a>
     <a href="#about" onClick="document.getElementById('Beats').scrollIntoView();">Beats</a>
     <a onClick="document.getElementById('Pricing').scrollIntoView();"> Pricing </a>
     <a onClick="document.getElementById('Contact').scrollIntoView();"> Contact </a>
-    <a class="mobile-navbar-r" href="launch.html"><img class="icon">
+    <!-- <a class="mobile-navbar-r" href="launch.html"><img class="icon"> -->
   </div>
 
   <div class="dropdown-navbar">
@@ -64,12 +65,128 @@
     <hr />
     <div class="space2"> </div>
     <h2 class="title" id="Pricing"> Pricing </h2>
-    <script src="https://apps.elfsight.com/p/platform.js" defer></script>
-    <div class="elfsight-app-7690ab37-aea3-4219-9e5a-7673544174c3"></div>
+    <!-- <script src="https://apps.elfsight.com/p/platform.js" defer></script> -->
+    <div class="container">
+
+  <article>
+
+  <ul>
+    <li class="bg-purple">
+      <button>Basic</button>
+    </li>
+    <li class="bg-blue">
+      <button>Upgrade</button>
+    </li>
+    <li class="bg-blue active">
+      <button>Ultimate</button>
+    </li>
+  </ul>
+
+  <table>
+    <thead>
+      <tr>
+        <th class="hide"></th>
+        <th class="bg-purple">Basic</th>
+        <th class="bg-blue">Upgrade</th>
+        <th class="bg-blue default">Ultimate</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Per Beatpack</td>
+        <td><span class="txt-top">$</span><span class="txt-l">10</span></td>
+        <td><span class="txt-top">$</span><span class="txt-l">15</span></td>
+        <td class="default"><span class="txt-top">$</span><span class="txt-l">50</span></td>
+      </tr>
+      <tr>
+        <td colspan="4" class="sep">Personal Experience with prodbyphoenix</td>
+      </tr>
+      <tr>
+        <td>MP3 Lease</td>
+        <td><span class="tick">&#10004;</span></td>
+        <td><span class="tick">&#10004;</span></td>
+        <td class="default"><span class="tick">&#10004;</span></td>
+      </tr>
+      <tr>
+        <td>WAV lease</td>
+        <td><span class="default"></span></td>
+        <td><span class="tick">&#10004;</span></td>
+        <td class="tick"><span class="tick">&#10004;</span></td>
+      </tr>
+      <tr>
+        <td>Must Credit: ft. prodbyphoenix</td>
+        <td><span class="tick">&#10004;</span></td>
+        <td><span class="tick">&#10004;</span></td>
+        <td class="default"><span class="tick">&#10004;</span></td>
+      </tr>
+      <tr>
+        <td>200,000 streams</td>
+        <td><span class="tick">&#10004;</span></td>
+        <td class="default"><span class="tick">&#10004;</span></td>
+        <td><span class="tick"></span></td>
+      </tr>
+      <tr>
+        <td>200 units sold</td>
+        <td><span class="tick">&#10004;</span></td>
+        <td class="default"><span class="tick">&#10004;</span></td>
+        <td><span class="tick"></span></td>
+      </tr>
+      <tr>
+        <td><a class="green">UNLIMITED</a> streams and copies</td>
+        <td><span class="tick"></span></td>
+        <td class="default"><span class="tick"></span></td>
+        <td><span class="tick">&#10004;</span></td>
+      </tr>
+      <tr>
+        <td colspan="4" class="sep">Quick delivery</td>
+      </tr>
+      <tr>
+        <td>1 Music Video</td>
+        <td><span class="tick">&#10004;</span></td>
+        <td class="default"><span class="tick">&#10004;</span></td>
+        <td><span class="tick">&#10004;</span></td>
+      </tr>
+      <tr>
+        <td>1 Radio Play (No TV/Commercial Spot)</td>
+        <td><span class="tick">&#10004;</span></td>
+        <td><span class="tick">&#10004;</span></td>
+        <td class="default"><span class="tick">&#10004;</span></td>
+      </tr>
+
+    </tbody>
+  </table>
+
+  </article>
+  </div>
+
+
     <div class="space2"> </div>
     <hr />
     <div class="space2"> </div>
     <h2 class="title" id="Contact"> Contact </h2>
+
+  <form class="form"action="action_page.php">
+
+    <label for="fname">Name</label>
+    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+    <label for="lname">Alias</label>
+    <input type="text" id="lname" name="lastname" placeholder="Your Alias">
+
+    <select id="country" name="Plan">
+      <option value="Starter">Basic</option>
+      <option value="Upgrade">Upgrade</option>
+      <option value="Unlimited">Unlimited</option>
+      <option value="custom">Custom</option>
+    </select>
+
+    <label for="subject">Subject</label>
+    <textarea id="subject" name="subject" placeholder="More details" style="height:200px"></textarea>
+
+    <input type="submit" value="Submit">
+
+  </form>
+
   </div>
 
 </body>
