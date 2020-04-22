@@ -129,7 +129,9 @@ html, body {
         height:48px;
     }
 
-
+    .sep {
+    colspan:2;
+  }
 
     .mobile-navbar-l {
       display:block !important;
